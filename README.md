@@ -66,7 +66,7 @@ Links.txt must be in the same directory as the script itself. (You can always mo
 ```
 Parent Directory/
 ├── url_opener.sh       # Main script
-└── Links.txt           # URL list (one per line)
+└── Links.txt           # URL list (one URL per line)
 ```
 
 ## Example Links.txt
