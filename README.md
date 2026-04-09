@@ -13,20 +13,28 @@ A bash script that opens URLs from a text file sequentially with optional URL up
 
 ## Requirements
 
-- Linux system with X11
+- Linux system on Wayland*
 - `yad` (Yet Another Dialog) - for popup dialogs
-- `xdg-open` - for opening URLs in default browser
+- `brave-bin` or `brave` - all links open in brave (don't ask me why, it just works better that way)
+
+\* *Might still work on X11 if you comment out the line `export GDK_BACKEND=x11` (might work without doing that too, idk)*
 
 ### Install Dependencies
 
 **Ubuntu/Debian:**
 ```bash
-sudo apt install yad
+sudo apt install yad brave
 ```
+
 
 **Fedora/RHEL:**
 ```bash
-sudo dnf install yad
+sudo dnf install yad brave
+```
+
+**Arch:**
+```bash
+sudo pacman -S yad brave-bin
 ```
 
 ## Setup
