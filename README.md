@@ -2,6 +2,8 @@
 
 > **Note:** This script (fully) and README (mostly) are AI-generated. Although *I* have tested this for my own use cases, please understand that *you* will be using this at *your own* risk.
 
+See updates at [Changelog.md](https://github.com/sl1pstream/url-opener/blob/main/README.md)
+
 A bash script that opens URLs from a text file sequentially with optional URL updating functionality.
 
 ## Features
